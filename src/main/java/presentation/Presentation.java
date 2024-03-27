@@ -16,7 +16,7 @@ public class Presentation {
         MetierImpl metier=new MetierImpl(dao);
         //injection des dependance
         //metier.setDao(dao);
-        System.out.println("Resultat ="+metier.calcul());
+        System.out.println("Resultat  est  ="+metier.calcul());
 
     }
 }
